@@ -23,8 +23,7 @@ def Validation(a,b,c):
     num_dict = {'zero':0, 'one':1, 'two':2, 'three': 3, 'four': 4, 'five': 5}
 
     if a not in num_dict and b!= 'plus' or b!='minus' and c not in num_dict:
-        print("I am not able to answer this question. Check your input.")
-        sys.exit("Terminating Program")
+       sys.exit("I am not able to answer this question. Check your input. Terminating Program.")
     return num_dict[a],b,num_dict[c]
 
 def AskUser():
